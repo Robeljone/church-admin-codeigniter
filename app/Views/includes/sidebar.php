@@ -1,4 +1,4 @@
-<aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: white; ">
+<aside class="main-sidebar sidebar-dark-primary elevation-1" style="background-color: white; ">
     <!-- Brand Logo -->
     <a href="public/index3.html" class="brand-link" >
     </a>
@@ -17,12 +17,12 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="dayteach.php"  class="nav-link" style="background-color: white; ">
+                <a href="/dayteaching"  class="nav-link" style="background-color: white; ">
                   <p style="color: black;">Manage Day Teachings</p>
                 </a>
               </li>
                 <li class="nav-item">
-                <a href="allteachings.php"  class="nav-link" style="background-color: white; ">
+                <a href="/allteaching"  class="nav-link" style="background-color: white; ">
                   <p style="color: black;">Manage Teachings</p>
                 </a>
               </li>
@@ -39,7 +39,7 @@
             </a>
             <ul class="nav nav-treeview">
                 <li class="nav-item">
-                <a href="messages.php"  class="nav-link" style="background-color: white; ">
+                <a href="/messages"  class="nav-link" style="background-color: white; ">
                   <p style="color: black;">Manage Message</p>
                 </a>
               </li>
@@ -55,12 +55,12 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="video.php"  class="nav-link" style="background-color: white; ">
+                <a href="/video"  class="nav-link" style="background-color: white; ">
                   <p style="color: black;">Manage Video Teachings</p>
                 </a>
               </li>
                 <li class="nav-item">
-                <a href="othermedia.php"  class="nav-link" style="background-color: white; ">
+                <a href="/othermedia"  class="nav-link" style="background-color: white; ">
                   <p style="color: black;">Manage audio/article Teachings</p>
                 </a>
               </li>

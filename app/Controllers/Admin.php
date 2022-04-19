@@ -5,6 +5,26 @@ namespace App\Controllers;
 
 class Admin extends BaseController
 {
+    public function allteach()
+    {
+        session_start();
+        return view('allteaching');
+    }
+    public function dayteach()
+    {
+        session_start();
+        return view('dayteaching');
+    }
+    public function othermedia()
+    {
+        session_start();
+        return view('medias');
+    }
+    public function video()
+    {
+        session_start();
+        return view('videos');
+    }
     public function logout()
     {
         session_start();
@@ -13,7 +33,6 @@ class Admin extends BaseController
     }
     public function auth()
     {
-        helper("custom");
         session_start();
         $username = $this->request->getVar('username');
         $password = $this->request->getVar('password');

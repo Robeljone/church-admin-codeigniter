@@ -6,3 +6,11 @@ CRITICAL - 2022-04-19 01:24:48 --> session_destroy(): Trying to destroy uninitia
 #4 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #5 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #6 {main}
+CRITICAL - 2022-04-19 02:55:08 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\church\app\Controllers\Admin.php(31): session_destroy()
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->logout()
+#3 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

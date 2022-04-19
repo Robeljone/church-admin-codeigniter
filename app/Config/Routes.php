@@ -33,7 +33,10 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/dashboard', 'Home::home');
-
+$routes->get('/video', 'Admin::video');
+$routes->get('/dayteaching', 'Admin::dayteach');
+$routes->get('/allteaching', 'Admin::allteach');
+$routes->get('/othermedia', 'Admin::othermedia');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
