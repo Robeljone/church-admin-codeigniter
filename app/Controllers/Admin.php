@@ -58,7 +58,8 @@ class Admin extends BaseController
         $postcont = $this->request->getVar('postcon');
         $toupload = $this->request->getFile('coverpic');
         $imagename=$toupload->getName();
-        $toupload->move('public/assets/images', $imagename);
+        //$toupload->move('public/assets/images', $imagename);
+        $filepath = 'public/assets/images' . $toupload->store();
         $sql = "INSERT INTO teachings(posted_by,files,teach_catagory,catagory,contents,statu) VALUES (?,?,?,?,?,?)";
         $query=$db->query($sql, [$postby,$imagename,$postcata,'day-teach',$postcont,'active']); 
         if($query){
@@ -79,8 +80,8 @@ class Admin extends BaseController
         $postcont = $this->request->getVar('postcon');
         $toupload = $this->request->getFile('coverpic');
         $imagename=$toupload->getName();
-        $toupload->move('public/assets/images', $imagename);
-
+       // $toupload->move('public/assets/images', $imagename);
+        $filepath = 'public/assets/images' . $toupload->store();
         $sql = "INSERT INTO teachings(posted_by,files,teach_catagory,catagory,contents,statu) VALUES (?,?,?,?,?,?)";
         $query=$db->query($sql, [$postby,$imagename,$postcata,'all-teach',$postcont,'active']); 
         if($query){

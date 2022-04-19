@@ -411,3 +411,9 @@ CRITICAL - 2022-04-19 07:01:50 --> Call to a member function getName() on null
 #2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #4 {main}
+CRITICAL - 2022-04-19 07:10:55 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_all()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
