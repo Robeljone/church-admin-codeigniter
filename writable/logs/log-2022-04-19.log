@@ -14,3 +14,400 @@ CRITICAL - 2022-04-19 02:55:08 --> session_destroy(): Trying to destroy uninitia
 #4 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #5 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #6 {main}
+CRITICAL - 2022-04-19 03:23:36 --> Undefined array key "company"
+#0 C:\xampp\htdocs\church\app\Controllers\Admin.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-19 04:16:28 --> Undefined array key "company"
+#0 C:\xampp\htdocs\church\app\Controllers\Admin.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-19 04:34:08 --> Undefined constant "teach"
+#0 C:\xampp\htdocs\church\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#3 C:\xampp\htdocs\church\app\Controllers\Admin.php(31): view('dayteaching', Array, Array)
+#4 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-19 04:34:34 --> Undefined constant "teach"
+#0 C:\xampp\htdocs\church\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#3 C:\xampp\htdocs\church\app\Controllers\Admin.php(31): view('dayteaching', Array, Array)
+#4 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-19 04:49:44 --> Undefined variable $teach
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(31): view('dayteaching', Array, Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 04:50:02 --> Undefined property: stdClass::$posted_by
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(31): view('dayteaching', Array, Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 04:50:18 --> Undefined variable $teach
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(31): view('dayteaching', Array, Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 04:51:23 --> Undefined variable $teach
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(31): view('dayteaching', Array, Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 04:57:39 --> Undefined variable $teach
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(33): view('dayteaching', Array, Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 04:58:17 --> Undefined variable $teach
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(33): view('dayteaching', Array, Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 04:59:00 --> Undefined variable $teach
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(33): view('dayteaching', Array, Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-19 05:00:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'teachings FROM  WHERE status ='active'' at line 1
+CRITICAL - 2022-04-19 05:00:16 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-19 05:01:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'teachings FROM  WHERE status ='active'' at line 1
+CRITICAL - 2022-04-19 05:01:42 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-19 05:02:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'teachings FROM  WHERE status ='active'' at line 1
+CRITICAL - 2022-04-19 05:02:12 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-19 05:31:07 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2022-04-19 05:31:07 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-19 05:31:52 --> Undefined variable $teach
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(33): view('dayteaching', Array, Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 05:32:25 --> Undefined variable $teach
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(33): view('dayteaching', Array, Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 05:32:38 --> Undefined variable $teach
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(33): view('dayteaching', Array, Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 05:32:52 --> Undefined variable $teach
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(33): view('dayteaching', Array, Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 05:33:48 --> Undefined variable $teach
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(33): view('dayteaching', Array, Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 05:34:06 --> Undefined variable $teach
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(33): view('dayteaching', Array, Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 05:34:19 --> Undefined variable $teach
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(33): view('dayteaching', Array, Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 05:34:55 --> Undefined variable $teach
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(33): view('dayteaching', Array, Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 05:37:11 --> Undefined variable $teach
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(33): view('dayteaching', Array, Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 05:39:42 --> Undefined variable $pcat
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 97)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(33): view('dayteaching', Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 05:40:06 --> Undefined property: stdClass::$teach_catagory
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(33): view('dayteaching', Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 05:43:04 --> Undefined variable $cat
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 94)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(33): view('dayteaching', Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 05:43:08 --> Undefined variable $cat
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 94)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(33): view('dayteaching', Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 05:49:31 --> syntax error, unexpected double-quoted string ">Passive</a></option>"
+#0 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#2 C:\xampp\htdocs\church\app\Controllers\Admin.php(33): view('dayteaching', Array)
+#3 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#4 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-19 06:19:45 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2022-04-19 06:19:45 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-19 06:20:09 --> Unknown column 'statu' in 'where clause'
+CRITICAL - 2022-04-19 06:20:09 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-19 06:20:29 --> Undefined property: stdClass::$status
+#0 C:\xampp\htdocs\church\app\Views\dayteaching.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 114)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('dayteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(33): view('dayteaching', Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 06:26:23 --> Undefined variable $db
+#0 C:\xampp\htdocs\church\app\Controllers\Admin.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-19 06:31:39 --> Undefined variable $cata
+#0 C:\xampp\htdocs\church\app\Views\allteaching.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('allteaching', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(11): view('allteaching')
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->allteach()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-19 06:33:18 --> Unknown column 'catagpry' in 'where clause'
+CRITICAL - 2022-04-19 06:33:18 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-19 06:33:39 --> Unknown column 'catagpry' in 'where clause'
+CRITICAL - 2022-04-19 06:33:39 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-19 06:34:32 --> Unknown column 'catagpry' in 'where clause'
+CRITICAL - 2022-04-19 06:34:32 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->dayteach()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-19 06:44:43 --> Call to a member function getName() on string
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-19 06:45:54 --> Call to undefined function App\Controllers\uniqueid()
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-19 06:47:54 --> Call to undefined function App\Controllers\uniqueid()
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-19 06:48:24 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-19 06:52:40 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-19 06:53:54 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-19 07:01:50 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_all()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -37,6 +37,7 @@ $routes->get('/video', 'Admin::video');
 $routes->get('/dayteaching', 'Admin::dayteach');
 $routes->get('/allteaching', 'Admin::allteach');
 $routes->get('/othermedia', 'Admin::othermedia');
+$routes->get('/form/reg_teach_day', 'Admin::reg_teach_day');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
