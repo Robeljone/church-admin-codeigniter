@@ -29,31 +29,41 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
-                    <label class="form-group">Full-Name</label>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Please input Full Name *" value=""
-                            required="required" />
-                    </div>
-                    <label class="form-group">Date-Published</label>
-                    <div class="form-group">
-                        <input type="date" class="form-control" placeholder="Please input date publiished *" value=""
-                            required="required" />
-                    </div>
-                    <label class="form-group">Images</label>
-                    <div class="form-group">
-                        <input type="file" class="form-control" accept="image/*" placeholder="Please input file *"
-                            value="" required="required" />
-                    </div>
-                    <label class="form-group">Links</label>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Please input video link *" value=""
-                            required="required" />
-                    </div>
-                    <label class="form-group">Description</label>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Please input video description *" value=""
-                            required="required" />
-                    </div>
+                    <?php if(isset($_SESSION["errfor"])){ echo ("<div class='alert alert-danger' role='alert' style='text-align:center;  max-width: 500px;
+100%;'>".$_SESSION["errfor"]."</div>"); unset($_SESSION["errfor"]);}?>
+                    <?php if(isset($_SESSION["sufor"])){ echo ("<div class='alert alert-success' role='alert'  style='text-align:center;  max-width: 500px;
+100%;'>".$_SESSION["sufor"]."</div>");unset($_SESSION["sufor"]); }?>
+                    <form method="post" action="Admin/uploadvideo" >
+                        <label class="form-group">Full-Name</label>
+                        <div class="form-group">
+                            <input type="text" name="postedby" class="form-control"
+                                placeholder="Please input Full Name *" value="" required="required" />
+                        </div>
+                        <label class="form-group">Title</label>
+                        <div class="form-group">
+                            <input type="text" name="title" class="form-control" placeholder="Please input Title Here *"
+                                value="" required="required" />
+                        </div>
+                        <label class="form-group">Images</label>
+                        <div class="form-group">
+                            <input type="file" name="coverpic" class="form-control" accept="image/*"
+                                placeholder="Please input file *" value="" required="required" />
+                        </div>
+                        <label class="form-group">Links</label>
+                        <div class="form-group">
+                            <input type="text" name="links" class="form-control" placeholder="Please input video link *"
+                                value="" required="required" />
+                        </div>
+                        <label class="form-group">Description</label>
+                        <div class="form-group">
+                            <textarea class="form-control" name="description">
+                              </textarea>
+                            <!-- <input type="text"  name="description" class="form-control" placeholder="Please input video description *" value=""
+                            required="required" /> -->
+                        </div>
+                        <button class="primary-button">
+                            Register
+                        </button>
                 </div>
             </div>
     </section>
@@ -74,7 +84,9 @@
                     <table id="example2" class="table table-bordered table-hover">
                         <thead>
                             <tr>
+                                <th>Num</th>
                                 <th>Full-Name</th>
+                                <th>Title</th>
                                 <th>Date-Published</th>
                                 <th>Link</th>
                                 <th>Description</th>
@@ -82,11 +94,52 @@
                             </tr>
                         </thead>
                         <tbody>
+                            <?php 
+                            $i=1; 
+                        $mydate=date("Y-m-d");
+                         foreach ($list as $org) {?>
+                            <tr class="odd">
+                                <td class="dtr-control sorting_1" tabindex="0"><?php echo $i?></td>
+                                <td><?php echo $org->posted_by;?></td>
+                                <td><?php echo $org->title;?></td>
+                                <td><?php echo $org->date;?></td>
+                                <td><?php echo $org->links;?></td>
+                                <td><?php echo $org->descriptions;?></td>
+                                <td><?php 
+                                                if ($org->status ==  'active')
+                                                 {
+                                                    echo("
+                                                    <select>
+                                                    <option></option>
+                                                    <option>Passive</option>
+                                                    <option>Delete</option>
+                                                    </select>
+                                                    ");
+                                                }else
+                                                {
+                                                    echo("
+                                                    <select>
+                                                    <option></option>
+                                                    <option>Active</option>
+                                                    <option>Delete</option>
+                                                    </select>
+                                                    ");
+                                                }
+                                                
+                                                
+                                                ;?></td>
 
+                            </tr>
+
+                            <?php 
+                                        $i=$i+1;
+                                        } ?>
                         </tbody>
                         <tfoot>
                             <tr>
+                                <th>Num</th>
                                 <th>Full-Name</th>
+                                <th>Title</th>
                                 <th>Date-Published</th>
                                 <th>Link</th>
                                 <th>Description</th>
