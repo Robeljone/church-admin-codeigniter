@@ -61,7 +61,33 @@
               </li>
                 <li class="nav-item">
                 <a href="/othermedia"  class="nav-link" style="background-color: white; ">
-                  <p style="color: black;">Manage audio/article Teachings</p>
+                  <p style="color: black;">Manage audio Teachings</p>
+                </a>
+              </li>
+            </ul>
+             </li>
+             <li class="nav-item" >
+            <a href="#" class="nav-link" style="background-color: #d97b3b;">
+              <i class="nav-icon fas fa-list-alt"></i>
+              <p>
+                Manage Others
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="/slider"  class="nav-link" style="background-color: white; ">
+                  <p style="color: black;">Manage slider</p>
+                </a>
+              </li>
+                <li class="nav-item">
+                <a href="/blogs"  class="nav-link" style="background-color: white; ">
+                  <p style="color: black;">Manage Blogs</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/articles"  class="nav-link" style="background-color: white; ">
+                  <p style="color: black;">Manage Articles</p>
                 </a>
               </li>
             </ul>

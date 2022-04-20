@@ -1,0 +1,155 @@
+CRITICAL - 2022-04-20 00:35:17 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 00:39:51 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 00:58:18 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 01:19:05 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-20 01:35:25 --> Unknown column 'title' in 'field list'
+ERROR - 2022-04-20 01:36:12 --> Unknown column 'title' in 'field list'
+CRITICAL - 2022-04-20 01:37:28 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-20 01:55:37 --> Unknown column 'link' in 'field list'
+CRITICAL - 2022-04-20 02:08:31 --> Undefined property: stdClass::$statu
+#0 C:\xampp\htdocs\church\app\Views\videos.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('videos', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(127): view('videos', Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->video()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 06:01:44 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 06:04:34 --> Call to a member function getBaseName() on null
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 06:07:57 --> Call to a member function getMimeType() on null
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 06:09:58 --> Call to a member function getFile() on string
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 06:12:01 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 06:13:36 --> Call to undefined method App\Controllers\Admin::getName()
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 06:20:57 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_day()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 06:21:38 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_all()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 06:30:43 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->reg_teach_all()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-20 07:00:14 --> Unknown column 'descriptions' in 'field list'
+ERROR - 2022-04-20 07:01:20 --> Unknown column 'descriptions' in 'field list'
+ERROR - 2022-04-20 07:02:28 --> Unknown column 'descriptions' in 'field list'
+ERROR - 2022-04-20 07:03:17 --> Unknown column 'descriptions' in 'field list'
+ERROR - 2022-04-20 07:20:06 --> Column 'posted_by' cannot be null
+CRITICAL - 2022-04-20 07:39:54 --> Invalid file: blog.php
+#0 C:\xampp\htdocs\church\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog.php')
+#1 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('blog', Array, true)
+#2 C:\xampp\htdocs\church\app\Controllers\Media.php(16): view('blog', Array)
+#3 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Media->blogs()
+#4 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Media))
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-20 07:46:46 --> Undefined variable $list
+#0 C:\xampp\htdocs\church\app\Views\slider.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('slider', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Media.php(11): view('slider', Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Media->slider()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Media))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 07:48:22 --> Undefined variable $list
+#0 C:\xampp\htdocs\church\app\Views\slider.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('slider', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Media.php(11): view('slider', Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Media->slider()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Media))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-20 08:17:13 --> Column 'posted_by' cannot be null
+CRITICAL - 2022-04-20 08:18:04 --> Undefined variable $db
+#0 C:\xampp\htdocs\church\app\Controllers\Media.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Media->uploadslider()
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Media))
+#3 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 08:21:18 --> Cannot redeclare App\Controllers\Media::uploadslider()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-20 08:21:47 --> Cannot redeclare App\Controllers\Media::uploadslider()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-04-20 08:22:11 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2022-04-20 08:22:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Media->slider()
+#1 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Media))
+#2 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

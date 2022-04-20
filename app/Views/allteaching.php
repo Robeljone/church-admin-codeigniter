@@ -28,7 +28,8 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
-                    <form method="post" action="Admin/reg_teach_all">
+                    <form method="post" action="Admin/reg_teach_all" accept-charset="utf-8"
+                        enctype="multipart/form-data">
                         <label class="form-group">Full-Name</label>
                         <div class="form-group">
                             <input type="text" name="postedby" class="form-control"
@@ -36,7 +37,7 @@
                         </div>
                         <label class="form-group">Images</label>
                         <div class="form-group">
-                            <input type="file" name="coverpic" class="form-control" accept="image/*"
+                            <input type="file" name="filename" class="form-control" accept="image/*"
                                 placeholder="Please input Full Name *" value="" required="required" />
                         </div>
                         <label class="form-group">Contents</label>
@@ -142,9 +143,12 @@
                         </tbody>
                         <tfoot>
                             <tr>
+                                <th>No</th>
                                 <th>Full-Name</th>
                                 <th>Date-Published</th>
+                                <th>Teach-Catagory</th>
                                 <th>Catagory</th>
+                                <th>Status</th>
                                 <th>Action</th>
                             </tr>
                         </tfoot>

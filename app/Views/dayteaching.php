@@ -28,7 +28,12 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
-                    <form method="post" action="Admin/reg_teach_day">
+                    <?php if(isset($_SESSION["errfor"])){ echo ("<div class='alert alert-danger' role='alert' style='text-align:center;  max-width: 500px;
+100%;'>".$_SESSION["errfor"]."</div>"); unset($_SESSION["errfor"]);}?>
+                    <?php if(isset($_SESSION["sufor"])){ echo ("<div class='alert alert-success' role='alert'  style='text-align:center;  max-width: 500px;
+100%;'>".$_SESSION["sufor"]."</div>");unset($_SESSION["sufor"]); }?>
+                    <form method="post" action="Admin/reg_teach_day" accept-charset="utf-8"
+                        enctype="multipart/form-data">
                         <label class="form-group">Full-Name</label>
                         <div class="form-group">
                             <input type="text" name="postedby" class="form-control"
@@ -36,7 +41,7 @@
                         </div>
                         <label class="form-group">Images</label>
                         <div class="form-group">
-                            <input type="file" name="coverpic" class="form-control" accept="image/*"
+                            <input type="file" name="filename" class="form-control" accept="image/*"
                                 placeholder="Please input Full Name *" value="" required="required" />
                         </div>
                         <label class="form-group">Contents</label>
@@ -142,9 +147,12 @@
                         </tbody>
                         <tfoot>
                             <tr>
+                                <th>No</th>
                                 <th>Full-Name</th>
                                 <th>Date-Published</th>
+                                <th>Teach-Catagory</th>
                                 <th>Catagory</th>
+                                <th>Status</th>
                                 <th>Action</th>
                             </tr>
                         </tfoot>
