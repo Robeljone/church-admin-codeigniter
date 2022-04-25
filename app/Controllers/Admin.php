@@ -136,7 +136,12 @@ class Admin extends BaseController
     public function othermedia()
     {
         session_start();
-        return view('medias');
+        $db2 = db_connect();
+        $sql2 = "SELECT *  FROM other_medias ";  
+        $query=$db2->query($sql2);  
+        $results2 = $query->getResult();
+        $data['list'] = $results2;
+        return view('medias',$data);
     }
     public function video()
     {

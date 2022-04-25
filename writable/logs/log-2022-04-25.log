@@ -1,0 +1,40 @@
+CRITICAL - 2022-04-25 01:20:43 --> Undefined variable $list
+#0 C:\xampp\htdocs\church\app\Views\medias.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('medias', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(139): view('medias')
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->othermedia()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-25 01:21:56 --> Invalid file: othermedia.php
+#0 C:\xampp\htdocs\church\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('othermedia.php')
+#1 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('othermedia', Array, true)
+#2 C:\xampp\htdocs\church\app\Controllers\Admin.php(144): view('othermedia', Array)
+#3 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->othermedia()
+#4 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 01:22:10 --> Invalid file: media.php
+#0 C:\xampp\htdocs\church\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('media.php')
+#1 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('media', Array, true)
+#2 C:\xampp\htdocs\church\app\Controllers\Admin.php(144): view('media', Array)
+#3 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->othermedia()
+#4 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 01:22:24 --> Undefined property: stdClass::$links
+#0 C:\xampp\htdocs\church\app\Views\medias.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 101)
+#1 C:\xampp\htdocs\church\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\church\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\church\system\Common.php(1089): CodeIgniter\View\View->render('medias', Array, true)
+#4 C:\xampp\htdocs\church\app\Controllers\Admin.php(144): view('medias', Array)
+#5 C:\xampp\htdocs\church\system\CodeIgniter.php(832): App\Controllers\Admin->othermedia()
+#6 C:\xampp\htdocs\church\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\church\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\church\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
